@@ -6,11 +6,12 @@ import sys
 
 def fizzbuzz(n):
     """
-    FizzBuzz function prints numbers from 1 to n separated by a space.
+    La fonction FizzBuzz imprime des nombres de 1 à n séparés par un espace.
 
-    - For multiples of three print "Fizz" instead of the number and for
-      multiples of five print "Buzz".
-    - For numbers which are multiples of both three and five print "FizzBuzz".
+    - Pour les multiples de trois, elle imprime "Fizz" à la place du nombre
+     et pour les multiples de cinq, elle imprime "Buzz"
+     - Pour les nombres qui sont à la fois multiples de trois et de cinq,
+     elle imprime "FizzBuzz".
     """
     if n < 1:
         return
